@@ -18,6 +18,7 @@ namespace LezioniRiepilogoPw.Entities
         public string Genere { get; set; }
         public TimeSpan Durata { get; set; }
 
+
         public int SupportoMusicaleId { get; set; }
 
         

@@ -19,35 +19,21 @@ class Program
             NomeArte = "Pupo",
             Biografia = "E' un cantante italiano.",
             Nazionalita = "Italiana",
-            ArtistiBrani = new List<ArtistaBrano>
-            {
-                new ArtistaBrano
-                {
-                    ArtistaId = 1,
-                    BranoId = 1
-                }
-
-
-
-            }
-
+           
 
         };
 
 
         BranoMusicale branoMusicale = new BranoMusicale
         {
+            Codice="+18",
+            Titolo="Gelato al ciccolato",
+            Genere="Pop",
+            Durata=
+
 
 
         };
-
-
-
-
-
-
-
-
 
   
         Console.WriteLine("Dettagli del CD:");
