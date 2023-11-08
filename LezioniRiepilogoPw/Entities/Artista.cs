@@ -25,6 +25,7 @@ namespace LezioniRiepilogoPw.Entities
             NomeArte = nomeArte;
             Biografia = biografia;
             Nazionalita = nazionalita;
+            Console.WriteLine(nomeArte);
         }
     }
 
