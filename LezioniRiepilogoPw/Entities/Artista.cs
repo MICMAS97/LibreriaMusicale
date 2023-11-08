@@ -17,7 +17,19 @@ namespace LezioniRiepilogoPw.Entities
         public string Nazionalita { get; set; }
 
         [ForeignKey("BranoMusicale")]
-        public int BranoId { get; set; }    
+        public int BranoId { get; set; }
 
+        public Artista(int artistaId, string nomeArte, string biografia, string nazionalita)
+        {
+            ArtistaId = artistaId;
+            NomeArte = nomeArte;
+            Biografia = biografia;
+            Nazionalita = nazionalita;
+        }
     }
+
+
+
+
+
 }
