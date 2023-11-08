@@ -14,11 +14,29 @@ class Program
             NumeroTracce = 12
         };
 
-        SupportoMusicale supportoMusicale = new SupportoMusicale
-
+        Artista artista1 = new Artista
         {
-        
+            NomeArte = "Pupo",
+            Biografia = "E' un cantante italiano.",
+            Nazionalita = "Italiana",
+            ArtistiBrani = new List<ArtistaBrano>
+            {
+                new ArtistaBrano
+                {
+                    ArtistaId = 1,
+                    BranoId = 1
+                }
 
+
+
+            }
+
+
+        };
+
+
+        BranoMusicale branoMusicale = new BranoMusicale
+        {
 
 
         };
@@ -26,7 +44,12 @@ class Program
 
 
 
-        
+
+
+
+
+
+  
         Console.WriteLine("Dettagli del CD:");
         Console.WriteLine($"Nome: {cd1.Nome}");
         Console.WriteLine($"Descrizione: {cd1.Descrizione}");
